@@ -5,6 +5,6 @@
 # 오목 인공지능 ([/omok](https://github.com/SpicyKong/My_HighSchool/tree/master/omok))
 > Pygame을 이용한 GUI를 구현했고, 인공지능은 미니맥스 알고리즘을 통해 구현했습니다.
 # 가위바위보 기계 ([/rsp](https://github.com/SpicyKong/My_HighSchool/tree/master/rsp))
-> OpenCv와 Arduino를 이용한 가위바위보 기계입니다. 모폴로지 기법으로 자른 손가락 갯수를 세는 알고리즘을 구상하였습니다.
+> Opencv와 Arduino를 이용한 가위바위보 기계입니다. 모폴로지 기법으로 자른 손가락 갯수를 세는 알고리즘을 구상하였습니다.
 # Etc.. ([/etc](https://github.com/SpicyKong/My_HighSchool/tree/master/etc))
 > 그외에 기타 등등 잡다한 프로그램들입니다.
