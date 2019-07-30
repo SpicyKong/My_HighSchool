@@ -1,5 +1,5 @@
 # 안녕하세요!
-고등학생기간동안 작성한 코드를 올리는 공간 입니다! :simple_smile:
+고등학생기간동안 작성한 코드를 올리는 공간 입니다! 
 # 동아리 관련 프로그램 ([/club](https://github.com/SpicyKong/My_HighSchool/tree/master/club))
 > 각종 교내 동아리 활동을 하면서 만들었던 프로그램들 입니다.
 # 오목 인공지능 ([/omok](https://github.com/SpicyKong/My_HighSchool/tree/master/omok))
