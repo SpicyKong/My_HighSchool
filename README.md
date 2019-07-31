@@ -8,5 +8,7 @@
 > Opencv와 Arduino를 이용한 가위바위보 기계입니다. 모폴로지 기법으로 자른 손가락 갯수를 세는 알고리즘을 구상하였습니다.
 # 큐브 솔버 ([/cube](https://github.com/SpicyKong/My_HighSchool/tree/master/cube))
 > 강화학습으로 큐브를 맞춰보자!
+# 장고 웹 프레임 워크 실습
+> Django라는 웹 프레임 워크를 실습한 내용 입니다.
 # Etc.. ([/etc](https://github.com/SpicyKong/My_HighSchool/tree/master/etc))
 > 그외에 기타 등등 잡다한 프로그램들입니다.
