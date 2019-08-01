@@ -1,5 +1,7 @@
 # #step1. 
 > environment.py에 큐브 환경 구성
+![cube_index.png](https://github.com/SpicyKong/My_HighSchool/blob/c6a1bb878449bd1d1e1caa16b87fb0ad67078ed2/cube/cube_index.png)
+![cube_color.png](https://github.com/SpicyKong/My_HighSchool/blob/c6a1bb878449bd1d1e1caa16b87fb0ad67078ed2/cube/cube_color.png)
 # #step2. 
 > 랜덤에 의한 Q-function 업데이트
 # #step3. 
