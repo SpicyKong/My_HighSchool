@@ -1,3 +1,9 @@
+#a=random.randrange(1,4)
+from collections import OrderedDict
+import time 
+time_a=time.time()
+import random
+
 class cube_env:
     def __init__(self):
         self.cube_state = []
@@ -74,16 +80,14 @@ class cube_env:
         return cube
 
     def cleaned_cube_state(self,cube_state):
-        cube_state = cube_state.reverse()
+        #cube_state = cube_state.reverse()
 
         self.cu=[]
         [self.cu.append(a) for a in cube_state if not a in self.cu]
-        self.re = [1000-a*0.1 for a in range(len(self.cu)) if 1000-a*0.1 > 0]
+        self.re = [0.999999**a for a in range(len(self.cu)) if 0.999999**a > 0]
 
         return self.cu,self.re
-        #[cu.append(a) for a in cube_state if not a in cu]
-        #cu_reward = [1000-a*0.1 for a in range(len(cube_state)) if 1000-a*0.1 > 0]
-        #print(cu_reward)
+        
 
     def save_list(self,list_state, list_reward):# 파일 결과 저장
 
@@ -92,3 +96,36 @@ class cube_env:
 
         with open('cube_reward.txt', "a") as file_r:
             file_r.write(str(list_reward)[1:-1]+', ')
+def test():
+    cube_class = cube_env()
+    act = [cube_class.R,cube_class.F,cube_class.U,cube_class.Rr,cube_class.Fr,cube_class.Ur]
+    cube_state=[]
+    cube_reward=[]
+    for _ in range(15):
+        cube = [0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5]
+        end = True
+        count=0
+        while(end):
+            random.choice(act)(cube)
+            if cube[0]==cube[1]==cube[2]==cube[3] and cube[4]==cube[5]==cube[6]==cube[7] and cube[8]==cube[9]==cube[10]==cube[11] and cube[12]==cube[13]==cube[14]==cube[15] and cube[16]==cube[17]==cube[18]==cube[19] and cube[20]==cube[21]==cube[22]==cube[23]:
+                pass
+                #end = False
+            elif not cube in cube_state:
+                cube_state.append(cube[:])#insert(0,cube)
+                cube_reward.append(0.999999**count)
+            else:
+                cube_st_id =  cube_state.index(cube) 
+                if cube_reward[cube_st_id] < 0.999999**count:
+                    cube_reward[cube_st_id] = 0.999999**count
+            count+=1
+            if count > 10000:
+                end = False
+    cube_class.save_list(cube_state,cube_reward)
+    print(count)
+    print(len(cube_state))
+
+    print("걸린시간 : {}초".format(time.time()-time_a))#,"초")/
+#test()
+#a = list(range(10000))
+#
+#print("걸린시간 : {}초".format(time.time()-time_a))#,"초")/
