@@ -6,6 +6,6 @@
 </div>
 
 # #step2. 
-> Q-function 업데이트
+> Q-netable을 구성하는데, 큐브리워드는 큐브 맞추는 순서에 따라 부여한다.
 # #step3. 
 > 업데이트된 Q - tablenet(?)을 이용해 큐브를 맞춰 나간다.
