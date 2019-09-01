@@ -1,4 +1,4 @@
-# 프로그램 작동 방식 설명
+# 프로그램 작동 영상
 
 [![Video Label](http://img.youtube.com/vi/DPdofPlD68o/0.jpg)](https://youtu.be/DPdofPlD68o?t=0s)
 
