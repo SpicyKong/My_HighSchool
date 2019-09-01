@@ -1,5 +1,6 @@
 # 프로그램 작동 방식 설명
-[![작동영상](http://img.youtube.com/vi/DPdofPlD68o/0.jpg)](https://youtu.be/DPdofPlD68o)
+
+[![Video Label](http://img.youtube.com/vi/DPdofPlD68o/0.jpg)](https://youtu.be/DPdofPlD68o?t=0s)
 
 # #step 1. 영상을 이진화 합니다.
 > <div>
