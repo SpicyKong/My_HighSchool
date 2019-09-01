@@ -1,4 +1,6 @@
 # 프로그램 작동 방식 설명
+[![작동영상](http://img.youtube.com/vi/DPdofPlD68o/0.jpg)](https://youtu.be/DPdofPlD68o)
+
 # #step 1. 영상을 이진화 합니다.
 > <div>
   <img src="https://github.com/SpicyKong/My_HighSchool/blob/master/rsp/%EA%B7%B8%EB%A6%BC1.png" width="30%"></img>
