@@ -1,6 +1,7 @@
 # 프로그램 작동 영상
 
-[![Video Label](http://img.youtu.be/P7MU_o5z-Ac.jpg)](https://youtu.be/P7MU_o5z-Ac)
+
+[![Video Label](https://img.youtu.be/P7MU_o5z-Ac/0.jpg)](https://youtu.be/P7MU_o5z-Ac)
 <!--
 # #step 1. 영상을 이진화 합니다.
 > <div>
