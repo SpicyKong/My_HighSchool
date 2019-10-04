@@ -59,7 +59,7 @@ def modify_data(list_board):
         f.write(str(list_board))
 def send_result():
     global participants, participants1, list_board, N_p
-    [requests.get("http://"""자세한 링크는 가리겠습니다.""".php?name="+participants[participants1[i].strip()]+"&score="+str(list_board[i][-1])) for i in range(N_p)]
+    [requests.get() for i in range(N_p)] # 이 부분은 GET방식으로 정보를 전달하는 부분입니다. 미리 구성해둔 웹페이지를 이용하시면 됩니다.
 
 
 update_info()
