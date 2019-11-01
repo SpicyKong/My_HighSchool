@@ -2,6 +2,7 @@
 
 
 [![Video Label](http://img.youtube.com/vi/P7MU_o5z-Ac/0.jpg)](https://youtu.be/P7MU_o5z-Ac)
+오목 인공지능은 현재 오목판에 돌이 두어질때마다 가중치를 업데이트하며 그중 최고값에 해당하는 위치에 돌을 두도록 만들었습니다.
 <!--
 # #step 1. 영상을 이진화 합니다.
 > <div>
